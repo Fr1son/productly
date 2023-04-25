@@ -10,17 +10,39 @@ a{
     text-decoration: none;
     color:inherit;
 }
+button{
+    border: none;
+    padding: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    color:#2F281E;
+}
+
 h1{
     font-size: 44px;
     line-height: 54px;
     font-weight: 700;
 }
+
 h2{
     font-size: 36px;
     line-height: 54px;
     font-weight: 700;
 }
+.button-primary{
+    background-color: #FF9900;
+    border-radius: 4px;
+    color:white;
+}
+.button-secondary{
+    border-radius: 4px;
+    color:#000;
+    background-color: #FFF;
+    border:1px solid #BCD0E5;
+    
 
+}
 .container{
     width:1130px;
     margin:0 auto;
@@ -49,16 +71,64 @@ h2{
 .list-item:hover{
     color:#FF9900;
 }
+.header-btn-wrap{
+    font-size:0;
+}
+.header-btn {
+    padding: 11px 25px;
+    font-size: 16px;
+}
+.button-primary.header-btn{
+    margin-left:14px;
+}
 .hero {
     height: calc(100vh - 78px);
-    padding:50px 0 112px;
+    /* padding:50px 0 112px; */
+    
 }
 .hero-inner{
     background-image: url("../images/section-img.jpg");
-    background-size: contain;
-    background-position: right;
+    background-size: 602px;
+    background-position: top right;
     background-repeat: no-repeat;
     width: 100%;
-    height: 438px;
+    height: 100%;
+}
 
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 458px;
+}
+.hero-content-title{
+    margin-bottom: 30px;
+}
+.hero-content-text{
+    margin-bottom:45px ;
+}
+.button-primary.hero-btn{
+    margin-right: 30px;
+}
+.hero-btn{
+    padding:15px 41px;
+}
+.hero-link{
+    color:#FF9900;
+    text-decoration: underline;
+    font-weight: 600;
+    position: relative;
+    padding-left: 28px;
+}
+
+.hero-link::before{
+    content:'';
+    position: absolute;
+    background: url('../images/triangle.svg');
+    background-repeat: no-repeat;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    width: 17px;
+    height: 19px;
 }
