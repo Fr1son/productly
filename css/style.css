@@ -30,6 +30,11 @@ h2{
     line-height: 54px;
     font-weight: 700;
 }
+h5{
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 33px;
+}
 .button-primary{
     background-color: #FF9900;
     border-radius: 4px;
@@ -134,3 +139,28 @@ h2{
     width: 17px;
     height: 19px;
 }
+.about-title{
+    text-align: center;
+    margin-bottom: 54px;
+    justify-content: center;
+}
+.card-item-img{
+    margin-bottom: 30px;
+}
+.card-list{
+    display: flex;
+    justify-content: center;
+}
+.card-item-title{
+    margin-bottom:13px ;
+}
+.card-item-text{
+    width:240px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 64px;
+}
+.card-button{
+    padding:15px 33px;
+}  
