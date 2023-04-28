@@ -1,5 +1,6 @@
 body{
     font-family: 'Poppins', sans-serif;
+    font-size: 16px;
 }
 ul{
     list-style: none;
@@ -34,6 +35,11 @@ h5{
     font-size: 22px;
     font-weight: 600;
     line-height: 33px;
+}
+h6{
+    line-height: 26px;
+    font-weight: 700;
+    font-size: 16px;
 }
 .button-primary{
     background-color: #FF9900;
@@ -175,4 +181,69 @@ h5{
     padding:15px 33px;
     display: block;
     margin: 0 auto;
-}  
+}
+.vacancy{
+    padding-top:120px;
+    padding-bottom: 266px;
+} 
+.vacancy-info-content{
+    width: 486px;
+} 
+.vacancy-info{
+    display:flex;
+    justify-content: space-between;
+    color:#544837;
+}
+.subtitle{
+    font-weight: 500;
+    line-height: 24px;
+    margin-bottom: 3px;
+}
+.vacancy-title{
+    margin-bottom: 22px;
+}
+.vacancy-text{
+    line-height: 26px;
+    font-weight: 500;
+}
+.vacancy-text:not(:last-child){
+    margin-bottom: 25px;
+}
+
+.people {
+    padding: 64px 0 108px;
+}
+
+.people-inner{
+padding: 119px 0 239px;
+position: relative;
+text-align: center;
+}
+.people-inner__title {
+
+}
+.people-item {
+    position: absolute;
+    left: 66px;
+    top: 20px;
+    width: 332px;
+    height: 140px;
+}
+
+.people-item__icon{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.people-item__dialog {
+    width: 274px;
+    height: 70px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.people-item__text {
+    position: absolute;
+    right: 10px;
+    top: 0;
+}
