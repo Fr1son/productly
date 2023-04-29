@@ -152,6 +152,7 @@ h6{
     background-position-y: bottom;
     background-position-x: center;
     background-repeat: no-repeat;
+    background-size: contain;
 
 }
 .about-title{
@@ -256,6 +257,6 @@ text-align: center;
 }
 .people-item__text {
     position: absolute;
-    right: 10px;
+    right: 23px;
     top: 0;
 }
