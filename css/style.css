@@ -209,6 +209,18 @@ h6{
 .vacancy-text:not(:last-child){
     margin-bottom: 25px;
 }
+.vacancy-text-move{
+    padding-right:30px;
+    position: relative;
+}
+.vacancy-text-move::before{
+    content:'';
+    position: absolute;
+    background: url('/images/yellow-tik.svg');
+    width:35px;
+    height:35px;
+
+}
 
 .people {
     padding: 64px 0 108px;
