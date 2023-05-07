@@ -226,6 +226,11 @@ h6{
 
 .people {
     padding: 64px 0 108px;
+    background: url('../images/Oval.jpg');
+    background-repeat: no-repeat;
+    background-position-y: top;
+    background-position-x: center;
+    background-size: cover;
 }
 
 .people-inner{
@@ -234,30 +239,183 @@ position: relative;
 text-align: center;
 }
 .people-inner__title {
-
+    margin-bottom: 40px;
+}
+.people-inner__text{
+    width:540px;
+    color:#567592;
+    margin:0 auto;
+    margin-bottom: 50px;
+}
+.people-button{
+    padding:15px 30px;
 }
 .people-item {
     position: absolute;
+    height: 140px;
+}
+.item-first{
     left: 66px;
     top: 20px;
     width: 332px;
-    height: 140px;
-}
 
+}
+.item-second {
+    width: 340px;
+    right:0;
+    top:0;
+}
+.item-third{
+    width: 304px;
+    bottom:98px;
+    left:66px;
+}
+.item-fourth{
+    width:300px;
+    right:-50px;
+    bottom:120px;
+}
+.item-fifth{
+    width:362px;
+    bottom:0;
+    right:300px;
+}
 .people-item__icon{
     position: absolute;
+}
+
+.icon-left {
     left: 0;
     bottom: 0;
 }
-.people-item__dialog {
-    width: 274px;
-    height: 70px;
-    position: absolute;
+
+.icon-right {
     right: 0;
+    bottom: 0;
+}
+
+
+.people-item__dialog {
+    height: 70px;
+    position: absolute;    
     top: 0;
+}
+
+.dialog-first{
+    right: 0;
+    width: 274px;
+}
+
+.dialog-second{
+    left:0;
+    width:281px;
+} 
+.dialog-third{
+    width:263px;
+    left:0;
+}
+.dialog-fourth{
+    width:240px;
+    left:0;
+}
+.dialog-fifth{
+    width:320px;
+    left:0;
 }
 .people-item__text {
     position: absolute;
-    right: 23px;
     top: 0;
+}
+.text-first{
+    right: 23px;
+}
+.text-second{
+    left:23px;
+}
+.text-third{
+    left:20px;
+}
+.text-fourth{
+    left:30px;
+}
+.text-fifth{
+    left:30px;
+}
+.strategie{
+    padding:114px 0 220px 0;
+}
+.strategie-title{
+    margin-bottom: 9px;
+}
+.strategie-text{
+    margin-bottom: 55px;
+}
+.strategie-list{
+    display:flex;
+    justify-content: space-between;
+}
+.strategie-item img{
+    margin-bottom: 25px;
+}
+.strategie-item{
+    width:348px;
+}
+.strategie-link{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 34px;
+}
+.under-text{
+    font-weight: 400;
+    font-size: 16px;
+    color:#544837;
+    margin-bottom: 12px;
+
+}
+.strategie-link:hover{
+    color:#FF9900;
+}
+.footer-inner{
+    padding:105px 0 100px;
+    border-top: 1px solid rgba(188, 208, 229, 0.496913);
+    display: flex;
+    justify-content: space-between;
+}
+.footer-menu{
+    width:135px;
+}
+.footer-menu-title,
+.footer-form-text{
+    margin-bottom: 35px;
+    font-size: 20px;
+    line-height: 30px;
+    color:#2F281E; 
+}
+.footer-menu-link{
+    font-size: 16px;
+    line-height: 35px;
+    color:#544837;
+}
+.footer-form{
+    width:330px;
+}
+.footer-form-input{
+    height: 48px;
+    padding: 0 15px;
+    border: 1px solid #BCD0E5;
+    border-radius: 4px;
+    width:100%;
+    margin-bottom: 21px;
+    display: inline-block;
+}
+
+.footer-form-input::placeholder{
+    color:#BCD0E5;
+    font-size: 16px;
+    line-height: 28px;
+}
+.footer-btn{
+    border-radius: 4px;
+    padding:8px 15px 7px;
+    
 }
