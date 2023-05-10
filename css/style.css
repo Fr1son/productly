@@ -55,7 +55,7 @@ h6{
 
 }
 .container{
-    width:1130px;
+    max-width:1130px;
     margin:0 auto;
     padding:0 10px;
 }
@@ -416,6 +416,5 @@ text-align: center;
 }
 .footer-btn{
     border-radius: 4px;
-    padding:8px 15px 7px;
-    
+    padding:8px 15px 7px;  
 }
